@@ -11,6 +11,7 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
+    "push": "git add . && git commit -m \"update\" && git push origin main",
     "deploy": "push-dir --dir=dist/spa --remote=origin --branch=gh-pages"
   },
   "dependencies": {
@@ -23,7 +24,8 @@
   },
   "devDependencies": {
     "@quasar/app-vite": "^1.3.0",
-    "autoprefixer": "^10.4.2",
+    "@vue/devtools": "^7.0.8",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.10.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.19.1",
@@ -31,8 +33,9 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^9.0.0",
     "gh-pages": "^6.1.1",
-    "postcss": "^8.4.14",
-    "push-dir": "^0.4.1"
+    "postcss": "^8.4.33",
+    "push-dir": "^0.4.1",
+    "tailwindcss": "^3.4.1"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",

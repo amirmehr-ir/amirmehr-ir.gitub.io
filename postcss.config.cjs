@@ -15,7 +15,7 @@ module.exports = {
         'last 4 FirefoxAndroid versions',
         'last 4 iOS versions'
       ]
-    })
+    }),
 
     // https://github.com/elchininet/postcss-rtlcss
     // If you want to support RTL css, then
@@ -23,5 +23,9 @@ module.exports = {
     // 2. optionally set quasar.config.js > framework > lang to an RTL language
     // 3. uncomment the following line:
     // require('postcss-rtlcss')
+
+    // to edit target browsers: use "browserslist" field in package.json
+    require('autoprefixer'),
+    require('tailwindcss')
   ]
 }
