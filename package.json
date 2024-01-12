@@ -11,8 +11,8 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "push": "git add . && git commit -m \"update\" && git push origin main",
-    "deploy": "push-dir --dir=dist/spa --remote=origin --branch=gh-pages"
+    "mehr-push": "git add . && git commit -m \"update\" && git push origin main",
+    "mehr-deploy": "push-dir --dir=dist/spa --remote=origin --branch=gh-pages"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
