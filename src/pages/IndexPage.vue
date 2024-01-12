@@ -2,6 +2,7 @@
   <q-page class="flex flex-center">
 
     <div class="p-10 bg-slate-100 rounded-lg border-2 border-dashed">
+      <div class="">Hi..</div>
       Coming Soon ..
     </div>
 

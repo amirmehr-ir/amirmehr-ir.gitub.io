@@ -12,8 +12,7 @@
     "dev": "quasar dev",
     "build": "quasar build",
     "mehr-push": "git add . && git commit -m \"update\" && git push origin main",
-    "mehr-deploy": "push-dir --dir=dist/spa --remote=origin --branch=gh-pages",
-    "mehr-s": "gh-pages -d dist --dist=dist/spa"
+    "mehr-deploy": "gh-pages -d dist --dist=dist/spa"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
@@ -35,7 +34,6 @@
     "eslint-plugin-vue": "^9.0.0",
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.33",
-    "push-dir": "^0.4.1",
     "tailwindcss": "^3.4.1"
   },
   "engines": {
