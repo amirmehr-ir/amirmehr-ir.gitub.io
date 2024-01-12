@@ -12,6 +12,7 @@
     "dev": "quasar dev",
     "build": "quasar build",
     "mehr-push": "git add . && git commit -m \"update\" && git push origin main",
+    "mehr-build": "quasar build",
     "mehr-deploy": "gh-pages -d dist --dist=dist/spa"
   },
   "dependencies": {
