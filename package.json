@@ -12,7 +12,8 @@
     "dev": "quasar dev",
     "build": "quasar build",
     "mehr-push": "git add . && git commit -m \"update\" && git push origin main",
-    "mehr-deploy": "push-dir --dir=dist/spa --remote=origin --branch=gh-pages"
+    "mehr-deploy": "push-dir --dir=dist/spa --remote=origin --branch=gh-pages",
+    "mehr-s": "gh-pages -d dist --dist=dist/spa"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
