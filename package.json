@@ -1,34 +1,38 @@
 {
-  "name": "mehr-app",
+  "name": "amirmehr",
   "version": "0.0.1",
   "description": "A Quasar Project",
   "productName": "Quasar App",
   "author": "Amir Hosein Sharifi <amirhoseinsharifimehr@gmail.com>",
   "private": true,
+  "homepage": "https://amirmehr-ir.github.io",
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "build": "quasar build",
+    "deploy": "push-dir --dir=dist/spa --remote=origin --branch=gh-pages"
   },
   "dependencies": {
+    "@quasar/extras": "^1.16.4",
     "axios": "^1.2.1",
     "pinia": "^2.0.11",
-    "@quasar/extras": "^1.16.4",
     "quasar": "^2.6.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0"
   },
   "devDependencies": {
+    "@quasar/app-vite": "^1.3.0",
+    "autoprefixer": "^10.4.2",
     "eslint": "^8.10.0",
-    "eslint-plugin-vue": "^9.0.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
-    "@quasar/app-vite": "^1.3.0",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.14"
+    "eslint-plugin-vue": "^9.0.0",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.14",
+    "push-dir": "^0.4.1"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",
